@@ -1,0 +1,117 @@
+sigil_style:
+  name: "Grimoire Engraved Sigil"
+  aesthetic:
+    influences:
+      - "Solomonic and Goetic seals"
+      - "Agrippa planetary seals"
+      - "17th-18th century grimoire plates"
+      - "Copperplate engraving"
+    character: "Severe, angular, authoritative, plate-like"
+    finish: "Black engraved lines on aged paper or pure black on white"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Aged parchment or pure white"
+    background_texture: "Subtle paper grain or none"
+    foreground_color: "#0a0a0a"
+    opacity: 1.0
+
+  background:
+    color: "#f8f1e3"
+    asset: null
+    texture_opacity: 0.3
+
+  stroke:
+    color: "#0a0a0a"
+    vector_widths:
+      primary: 10
+      secondary: 6
+      detail: 3
+    primary_weight: "Consistent medium, engraved feel"
+    secondary_weight: "Lighter"
+    approximate_primary_width: "10 units per 1000 canvas units"
+    approximate_secondary_width: "6 units per 1000 canvas units"
+    cap_style: "Square or slightly tapered"
+    join_style: "Sharp miters and angular intersections"
+    pressure_variation: "None; uniform engraving weight"
+    character: "Hard, precise, mechanical yet hand-cut"
+    outlines: "Clean solid strokes"
+
+  curves:
+    style:
+      - "Geometric arcs"
+      - "Perfect or near-perfect circles"
+      - "Angular polygonal paths"
+    curvature: "Controlled geometric"
+    symmetry: "High bilateral or rotational symmetry preferred"
+    transitions: "Sharp or precisely radiused"
+    terminals:
+      - "Blunt"
+      - "Squared"
+      - "Slightly flared"
+
+  geometry:
+    vertical_axis: "Strong central axis"
+    horizontal_axis: "Strong cross axis"
+    diagonal_axes: "Frequently used for seals"
+    construction: "Circular frames, polygonal figures, internal paths"
+    alignment: "Strictly centered"
+    symmetry: "High symmetry"
+    intersections: "Clean crossings, often at right angles"
+    negative_space: "Geometric and balanced"
+
+  construction:
+    default_method: "kamea_path"
+    default_gesture: "engrave"
+    glyph_scale: 0.85
+    glyph_curvature: 0.4
+    scale_reference_count: 6
+    max_visible_forms: 7
+    weave_sway: 2
+
+  structure:
+    layers:
+      - "background"
+      - "outer-circle"
+      - "primary-structure"
+      - "method-path"
+      - "names-or-symbols"
+
+  arrow:
+    enabled: false
+
+  lettering:
+    style: "Latin or Hebrew capital forms, angular"
+    construction: "Integrated into the geometric frame"
+    vertical_strokes: "Straight, uniform"
+    crossbars: "Horizontal, precise"
+    bowls: "Geometric or angular"
+    diagonals: "Sharp"
+    legibility: "High within the seal tradition"
+
+  composition:
+    arrangement: "Concentric or framed geometric seal"
+    dominant_features:
+      - "Outer circle or double circle"
+      - "Central figure or path"
+      - "Angular internal structure"
+    margins: "Balanced within the frame"
+    visual_hierarchy: "Frame first, internal path second"
+    density: "Medium; clear hierarchy"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Precise geometric paths"
+    fills: "None or solid for closed figures"
+    transforms: "Rotation for symmetry"
+    layering: "Outer frame, internal structure"
+    scalability: "Perfect"
+    avoid:
+      - "Calligraphic variation"
+      - "Organic curves"
+      - "Loose interweaving"
+      - "Decorative arrows"
+      - "Soft terminals"
+      - "Asymmetric freeform"

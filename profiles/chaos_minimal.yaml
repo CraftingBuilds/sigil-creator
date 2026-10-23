@@ -1,0 +1,115 @@
+sigil_style:
+  name: "Chaos Minimal Sigil"
+  aesthetic:
+    influences:
+      - "Austin Osman Spare"
+      - "Modern chaos magic"
+      - "Minimalist abstract art"
+      - "Psychological sigil design"
+    character: "Clean, abstract, decisive, psychological"
+    finish: "High-contrast black on pure white or pure black on white"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Pure white or pure black"
+    background_texture: "None"
+    foreground_color: "#000000"
+    opacity: 1.0
+
+  background:
+    color: "#ffffff"
+    asset: null
+    texture_opacity: 0.0
+
+  stroke:
+    color: "#000000"
+    vector_widths:
+      primary: 12
+      secondary: 8
+      detail: 4
+    primary_weight: "Consistent medium-heavy"
+    secondary_weight: "Medium"
+    approximate_primary_width: "12 units per 1000 canvas units"
+    approximate_secondary_width: "8 units per 1000 canvas units"
+    cap_style: "Rounded or squared, clean"
+    join_style: "Sharp or rounded, consistent"
+    pressure_variation: "Minimal to none"
+    character: "Precise, intentional, non-calligraphic"
+    outlines: "Solid shapes or clean strokes"
+
+  curves:
+    style:
+      - "Simple arcs"
+      - "Tight loops"
+      - "Straight lines with occasional curves"
+    curvature: "Controlled, purposeful"
+    symmetry: "Often asymmetric for psychological effect"
+    transitions: "Direct and decisive"
+    terminals:
+      - "Clean rounded"
+      - "Blunt"
+      - "Slightly tapered"
+
+  geometry:
+    vertical_axis: "Present but not dominant"
+    horizontal_axis: "Present but not dominant"
+    diagonal_axes: "Used for energy and direction"
+    construction: "Abstracted letterforms reduced to essential marks"
+    alignment: "Centered or slightly off-center for tension"
+    symmetry: "Asymmetric preferred"
+    intersections: "Minimal, intentional crossings"
+    negative_space: "Generous and deliberate"
+
+  construction:
+    default_method: "spare_reduction"
+    default_gesture: "abstract"
+    glyph_scale: 0.9
+    glyph_curvature: 0.7
+    scale_reference_count: 5
+    max_visible_forms: 6
+    weave_sway: 6
+
+  structure:
+    layers:
+      - "background"
+      - "primary-structure"
+      - "method-path"
+
+  arrow:
+    enabled: false
+
+  lettering:
+    style: "Highly abstracted, barely legible fragments"
+    construction: "Letters dissolved into pure form"
+    vertical_strokes: "Simplified stems"
+    crossbars: "Minimal"
+    bowls: "Simplified closed forms"
+    diagonals: "Strong directional lines"
+    legibility: "Intentionally low; silhouette is primary"
+
+  composition:
+    arrangement: "Compact, balanced abstract mark"
+    dominant_features:
+      - "Strong overall silhouette"
+      - "Clear negative space"
+      - "Decisive lines"
+    margins: "Generous white space"
+    visual_hierarchy: "Whole form first"
+    density: "Low to medium; clarity over complexity"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Clean Bézier and straight segments"
+    fills: "Solid black"
+    transforms: "Minimal rotation/scaling"
+    layering: "Flat or simple layers"
+    scalability: "Perfectly scalable"
+    avoid:
+      - "Ornate flourishes"
+      - "Parchment textures"
+      - "Calligraphic variation"
+      - "Decorative arrows"
+      - "Complex interweaving"
+      - "Historical ornament"

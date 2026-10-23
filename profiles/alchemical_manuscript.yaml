@@ -1,0 +1,117 @@
+sigil_style:
+  name: "Alchemical Manuscript Sigil"
+  aesthetic:
+    influences:
+      - "Medieval and Renaissance alchemical manuscripts"
+      - "Illuminated herbal and philosophical diagrams"
+      - "Emblem books"
+      - "Hand-drawn symbolic illustrations"
+    character: "Ornate yet restrained, symbolic, manuscript"
+    finish: "Sepia or dark brown ink on aged vellum"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Aged vellum or cream parchment"
+    background_texture: "Subtle vellum grain and age spots"
+    foreground_color: "#2c1810"
+    opacity: 1.0
+
+  background:
+    color: "#f5e8c7"
+    asset: null
+    texture_opacity: 0.6
+
+  stroke:
+    color: "#2c1810"
+    vector_widths:
+      primary: 11
+      secondary: 7
+      detail: 4
+    primary_weight: "Medium with slight organic variation"
+    secondary_weight: "Lighter"
+    approximate_primary_width: "11 units per 1000 canvas units"
+    approximate_secondary_width: "7 units per 1000 canvas units"
+    cap_style: "Slightly rounded or softly tapered"
+    join_style: "Smooth with occasional pointed joins"
+    pressure_variation: "Gentle, manuscript-like"
+    character: "Ink pen on vellum, confident but human"
+    outlines: "Solid or slightly textured strokes"
+
+  curves:
+    style:
+      - "Gentle manuscript curves"
+      - "Circular and vesica forms"
+      - "Symbolic loops"
+    curvature: "Organic yet controlled"
+    symmetry: "Approximate bilateral or radial"
+    transitions: "Fluid"
+    terminals:
+      - "Softly rounded"
+      - "Slightly flared"
+      - "Tapered pen points"
+
+  geometry:
+    vertical_axis: "Present"
+    horizontal_axis: "Present"
+    diagonal_axes: "Used symbolically"
+    construction: "Symbolic geometry + abstracted letters"
+    alignment: "Centered"
+    symmetry: "Balanced asymmetry or mild symmetry"
+    intersections: "Graceful crossings"
+    negative_space: "Harmonious and symbolic"
+
+  construction:
+    default_method: "hybrid"
+    default_gesture: "illuminate"
+    glyph_scale: 0.95
+    glyph_curvature: 0.85
+    scale_reference_count: 7
+    max_visible_forms: 7
+    weave_sway: 10
+
+  structure:
+    layers:
+      - "background"
+      - "primary-structure"
+      - "symbolic-elements"
+      - "method-path"
+      - "letterforms"
+
+  arrow:
+    enabled: false
+
+  lettering:
+    style: "Humanist or gothic manuscript letterforms, abstracted"
+    construction: "Integrated as symbolic elements"
+    vertical_strokes: "Slightly modulated"
+    crossbars: "Soft"
+    bowls: "Rounded, manuscript"
+    diagonals: "Gentle"
+    legibility: "Moderate; secondary to overall symbol"
+
+  composition:
+    arrangement: "Balanced symbolic composition"
+    dominant_features:
+      - "Central symbolic form"
+      - "Circular or vesica framing"
+      - "Integrated letter or path elements"
+    margins: "Generous manuscript margins"
+    visual_hierarchy: "Overall emblem first"
+    density: "Medium; elegant rather than dense"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Bézier curves with manuscript character"
+    fills: "Solid or light fills for closed forms"
+    transforms: "Subtle rotation and scale"
+    layering: "Background, structure, detail"
+    scalability: "Good"
+    avoid:
+      - "Harsh modern geometry"
+      - "Pure black high-contrast minimalism"
+      - "Heavy calligraphic flourish"
+      - "Mechanical engraving look"
+      - "Bright colors"
+      - "UI-style arrows"
